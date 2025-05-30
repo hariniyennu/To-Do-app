@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="cute_ui.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="main">
+    <div class="top-row">
+        <div class="date_box" id="date_box">
+            <div class="day" id="day">
+            </div>
+            <div class="circle" id="circle">
+            </div>
+            <div class="month" id="month">
+            </div>
+        </div>
+        <div class="right">
+            <div class="progression">
+                Progression
+                <div class="progress-container">
+                    <div class="progressbar" id="progressbar"></div>
+                </div>
+            </div>
+            <div class="input">
+                <div class="input-group">
+                    <input id="myinp" type="text" placeholder="Write your task">
+                    <button onclick="newElement()"><i class='fas fa-plus'></i></button>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="tasks">
+            <ul id="myli">
+                <!-- <li class="task-item">
+                    <span class="close">x</span>
+                </li> -->
+            </ul>
+        </div> 
+        <div class="finish">
+            <button id="finishbtn"> Finish Day</button>
+        </div>
+    </div>
+</div>
+
+<audio id="addSound" src="sounds/662345__fmaudio__interface-erase-3.wav" preload="auto"></audio>
+<audio id="completeSound" src="sounds/174721__drminky__watch-tick.wav" preload="auto"></audio>
+<audio id="finishSound" src="sounds/397353__plasterbrain__tada-fanfare-g.flac" preload="auto"></audio>
+<audio id="notifSound" src="sounds/736267__universfield__new-notification-7.mp3" preload="auto"></audio>
+<audio id="deleteSound" src="sounds/662345__fmaudio__interface-erase-3.wav" preload="auto"></audio>
+
+<div class="notification-container" style="display: none;">
+    <div class="notification">
+        <span class="notification-icon">🌸</span>
+        <span class="notification-text">Notification text here</span>
+        <span class="notification-close">×</span>
+    </div>
+</div>
+
+<script src="cute_ui.js"></script>
+
+</body>
+</html>
