@@ -6,12 +6,17 @@ A simple, beautiful, and offline-friendly To-Do application built using **HTML**
 You can download the latest version of the To-Do App here:  
 👉 [Download To-Do App for Windows](https://github.com/hariniyennu/To-Do-app/releases/tag/v1.0.0)
 
+
 ---
+
 
 ## 🌐 Try it Online
 
 Use the app on the web:  
 👉 [Live Demo on Netlify](https://harinisxtodo.netlify.app/)
+
+---
+
 
 ## ✨ Features
 
@@ -23,7 +28,6 @@ Use the app on the web:
 
 
 ---
-
 
 
 ## 🛠️ Tech Stack
